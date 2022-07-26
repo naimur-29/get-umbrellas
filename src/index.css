@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border rounded-lg border-black px-5 py-1;
+  }
+
+  a {
+    @apply decoration-neutral-50;
+  }
+}
