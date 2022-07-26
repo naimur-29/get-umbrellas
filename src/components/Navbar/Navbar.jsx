@@ -27,7 +27,7 @@ const Navbar = () => {
             onClick={() => setMobile(true)}
           />
         </div>
-        <Title />
+        <Title mainClass={"text-3xl"} />
         <div
           className="hidden lg:flex items-center bg-gray-200 rounded-full cursor-pointer p-1 select-none"
           onClick={() => setDelivery(!delivery)}
