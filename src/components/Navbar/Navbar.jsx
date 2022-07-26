@@ -50,7 +50,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center gap-2">
         {/* Search Bar */}
-        <div className="bg-gray-200 rounded-full flex items-center px-2 w-[200px] sm:w-[350px] lg:w-[400px]">
+        <div className="bg-gray-200 rounded-full  items-center px-2 w-[200px] sm:w-[350px] lg:w-[400px] hidden sm:flex">
           <AiOutlineSearch size={25} />
           <input
             className="w-full p-2 bg-transparent focus:outline-none"
@@ -101,6 +101,9 @@ const Navbar = () => {
             </li>
             <li className="flex items-center gap-4 p-2 text-xl cursor-pointer">
               <MdHelp size={25} /> Help
+            </li>
+            <li className="flex items-center gap-4 p-2 text-xl cursor-pointer">
+              <AiOutlineSearch size={25} /> Search
             </li>
             <li className="flex items-center gap-4 p-2 text-xl cursor-pointer">
               <AiFillTag size={25} /> Promotions

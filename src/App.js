@@ -19,7 +19,7 @@ const App = () => {
   return (
     <div>
       {loading ? (
-        <div className="max-w-[1640px] h-screen p-4 mx-auto flex items-center justify-center bg-blue-900">
+        <div className="h-screen flex items-center justify-center bg-blue-900">
           <ClockLoader color={"#fff"} loading={loading} size={150} />
         </div>
       ) : (

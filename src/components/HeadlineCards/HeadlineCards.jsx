@@ -1,26 +1,26 @@
 import React from "react";
 
-import HeadlineCard from "./HeadlineCard";
+import Card from "./Card";
 
 const HeadlineCards = () => {
   return (
     <div className="max-w-[1640px] mx-auto p-4 py-12 grid md:grid-cols-3 gap-6">
       {/*Featured Cards */}
-      <HeadlineCard
+      <Card
         bgImgSource={
           "https://images.pexels.com/photos/247114/pexels-photo-247114.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         title={"Rounded Chinese Design"}
         price={69}
       />
-      <HeadlineCard
+      <Card
         bgImgSource={
           "https://images.pexels.com/photos/790104/pexels-photo-790104.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
         title={"Light Up Darkest Nights"}
         price={99}
       />
-      <HeadlineCard
+      <Card
         bgImgSource={
           "https://images.pexels.com/photos/751099/pexels-photo-751099.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         }
