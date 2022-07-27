@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import ClockLoader from "react-spinners/ClockLoader";
 
-import Navbar from "./Components/Navbar/Navbar";
+import Navbar from "./Components/Navbar/Navbar.jsx";
 import Hero from "./Components/Hero/Hero";
 import HeadlineCards from "./Components/HeadlineCards/HeadlineCards";
 import Umbrellas from "./Components/Umbrellas/Umbrellas";
