@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-import { UmbrellasData } from "../../Data/UmbrellasData";
+import { UmbrellasData } from "../../data/UmbrellasData";
 import FilterColorButton from "./FilterColorButton";
 
 const Umbrellas = () => {
