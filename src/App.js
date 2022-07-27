@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
 import ClockLoader from "react-spinners/ClockLoader";
 
-import Navbar from "./components/Navbar/Navbar.jsx";
-import Hero from "./components/Hero/Hero";
-import HeadlineCards from "./components/HeadlineCards/HeadlineCards";
-import Umbrellas from "./components/Umbrellas/Umbrellas";
+import Navbar from "./Components/Navbar/Navbar.jsx";
+import Hero from "./Components/Hero/Hero";
+import HeadlineCards from "./Components/HeadlineCards/HeadlineCards";
+import Umbrellas from "./Components/Umbrellas/Umbrellas";
 
 const App = () => {
   const [loading, setLoading] = useState(false);
