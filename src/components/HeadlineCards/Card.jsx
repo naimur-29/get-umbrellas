@@ -7,7 +7,7 @@ const HeadlineCard = ({ bgImgSource, price, title }) => {
       <div className="absolute w-full h-full bg-black/50 rounded-xl text-white">
         <p className="font-bold text-2xl px-2 pt-4">{title}</p>
         <p className="px-2">Only {price}.99$</p>
-        <button className="border-white bg-white text-black mx-2 absolute bottom-4">
+        <button className="font-bold border-white bg-white text-black mx-2 absolute bottom-4 transition-all duration-100 active:scale-[0.9]">
           Get Now
         </button>
       </div>
