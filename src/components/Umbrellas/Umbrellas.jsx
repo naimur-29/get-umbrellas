@@ -27,7 +27,7 @@ const Umbrellas = () => {
   return (
     <div className="max-w-[1640px] m-auto px-4 py-12">
       <h1 className="text-black font-bold text-4xl text-center mb-8">
-        Top Rated Menu Items
+        Top Rated Products
       </h1>
 
       <Filtering
