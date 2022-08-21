@@ -1,6 +1,15 @@
 # [Get Umbrellas](https://naimur29-getumbrellas.netlify.app/)
 
-![Project Image](get-umbrellas.png)
+<table>
+  <tr>
+    <td valign="top"><img src="readme-imgs/01.png"/></td>
+    <td valign="top"><img src="readme-imgs/02.png"/></td>
+  </tr>
+  <tr>
+    <td valign="top"><img src="readme-imgs/03.png"/></td>
+    <td valign="top"><img src="readme-imgs/04.png"/></td>
+  </tr>
+</table>
 
 > This is my Online Umbrella Store project (unfinished)
 
@@ -19,6 +28,7 @@ Get whatever umbrellas you like 😁!! Best umbrella store you can find... <br>
 Dev Goal: Learn Tailwind CSS with responsive design in mind...
 
 ### Packages: <br/>
+
 1. Used React JS Framework. <br/>
 2. Tailwind CSS for designing. <br/>
 3. Yarn as package manager <br>
@@ -26,6 +36,7 @@ Dev Goal: Learn Tailwind CSS with responsive design in mind...
 5. HTML & Vanilla CSS.
 
 ### Some features of my project: <br />
+
 1. This site is responsive for mobile and Desktop. <br />
 
 ---
@@ -38,4 +49,5 @@ After download you open the project in your IDE and open your terminal. Then for
 ---
 
 ## Live link:
+
 - [Click to visit Get Umbrellas](https://naimur29-getumbrellas.netlify.app/)
